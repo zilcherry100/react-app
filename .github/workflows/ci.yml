@@ -38,7 +38,7 @@ jobs:
       - name: Update GitOps repo
         uses: actions/checkout@v4
         with:
-          repository: yourusername/react-gitops
+          repository: zilcherry100/react-gitops
           token: ${{ secrets.GH_TOKEN }}
           ref: main
           path: gitops
